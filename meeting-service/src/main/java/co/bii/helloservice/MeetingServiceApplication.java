@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EnableDiscoveryClient
 @RestController
-public class HelloServiceApplication {
+public class MeetingServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloServiceApplication.class, args);
+		SpringApplication.run(MeetingServiceApplication.class, args);
 	}
 
 //	@RequestMapping
