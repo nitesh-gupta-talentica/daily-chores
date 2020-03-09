@@ -16,15 +16,4 @@ public class MeetingServiceApplication {
 		SpringApplication.run(MeetingServiceApplication.class, args);
 	}
 
-//	@RequestMapping
-//	public String hello(@RequestHeader("x-location") String location) {
-//		return "Hello! from " + location;
-//	}
-
-
-	@RequestMapping
-	public String hello() {
-		return "Hello! Service ";
-	}
-
 }
